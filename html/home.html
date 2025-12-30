@@ -1,0 +1,4300 @@
+<!DOCTYPE html>
+<html lang="en"><head><link rel="shortcut icon" type="image/png" href="https://storage.mlcdn.com/account_image/634278/MakingmyownklaneOAHovz.png">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNT0CQP6G6"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KNT0CQP6G6');
+</script>
+
+
+
+    <meta name="robots" content="index, follow">
+
+
+<meta property="og:type" content="website">
+<meta property="og:image:alt" content="Making My Own Lane">
+<meta property="og:url" content="https://makingmyownlane.com">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Solo Female Full-Time RV Living In a Class C RV. What it&#039;s like to live and travel the US full-time in a Class C RV as a 55+ solo female traveler.">
+
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="What it's like to live and travel the US full-time in a Class C RV as a solo female traveler.">
+<meta name="keywords" content="Solo Female Full-Time RV Living, RV Travel in the USA, Class C Living Full-Time, RV life, van life,">
+
+<meta property="og:title" content="My RV Life Adventure as a Solo Female Full-Time RV Living In a Class C RV">
+<meta property="og:description" content="What it's like to live and travel the US full-time in a Class C RV as a solo female traveler.">
+<meta property="og:image" content="https://storage.mlcdn.com/account_image/634278/9A1MPWmm8zUI3igrUN4AUGr6VADHWTlnYOYM9Hfp.png">
+<meta property="og:image:alt" content="My RV Life Adventure as a Solo Female Full-Time RV Living In a Class C RV">
+
+
+
+<meta name="twitter:title" content="My RV Life Adventure as a Solo Female Full-Time RV Living In a Class C RV">
+<meta name="twitter:image" content="https://storage.mlcdn.com/account_image/634278/9A1MPWmm8zUI3igrUN4AUGr6VADHWTlnYOYM9Hfp.png">
+
+
+
+    
+    
+
+<link rel="stylesheet" href="https://assets.mlcdn.com/ml/bootstrap/css/bootstrap-4.6.2.min.css">
+
+
+<script src="https://assets.mlcdn.com/ml/jquery/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://assets.mlcdn.com/ml/bootstrap/js/bootstrap-4.6.2.min.js"></script>
+
+<script src="https://assets.mlcdn.com/ml/fontawesome/v5.10.2/js/0f54bd8811.js"></script>
+
+<title>My RV Life Adventure as a Solo Female Full-Time RV Living In a Class C RV</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  
+
+
+
+<style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1766132");</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+
+<script>
+  (function($) {
+    window.addEventListener('DOMContentLoaded', function() {
+        $('.ml-gallery').length && baguetteBox && baguetteBox.run('.ml-gallery');
+    })
+  })(jQuery);
+</script>
+
+<script src="https://assets.mlcdn.com/ml/moment/moment.min.js"></script>
+<script src="https://assets.mlcdn.com/ml/moment-timezone/moment-timezone-with-data.min.js"></script>
+
+<script>
+  var previousTimeZone = [];
+  var updatingTimer = false;
+
+	function timers(newDate) {
+    updatingTimer = true;
+
+		setTimeout(function(){
+			$('.countdown').each(function() {
+        var id = $(this).attr('id');
+        var selected_zone = $(this).attr('data-zone');
+        var zone = $(this).attr('data-' + selected_zone);
+
+        if (typeof previousTimeZone[id] === 'undefined') {
+          previousTimeZone[id] = zone;
+        }
+
+        // init countdown timer || || endTime changed || zone changed
+        if(!$(this).data('countdown-bound') || newDate || previousTimeZone[id] !== zone) {
+          previousTimeZone[id] = zone;
+          $(this).data('countdown-bound', true);
+
+          var endTime = newDate || $(this).attr('data-date');
+          var endTimeUTC = getUTC(endTime, zone);
+
+          initializeClock(id, endTimeUTC);
+        }
+
+			});
+      updatingTimer = false;
+		});
+	}
+
+	function getUTC(endTime, zone){
+	  var moment = window.moment;
+    try {
+      moment = window.top && window.top.moment;
+    } catch (err) { }
+    var format = 'YYYY-MM-DD HH:mm:ss';
+    if (moment.tz && zone) {
+      var date = moment.tz(endTime, zone);
+      date = date.tz ? date.tz("UTC") : date;
+    } else {
+      var date = moment(endTime, format);
+      date = (zone && date.tz) ? date.tz(zone) : date;
+    }
+    return date.format(format);
+  }
+
+	$(document).ready(function () {
+		timers();
+
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (!updatingTimer && mutation.type === 'childList') {
+                    timers();
+                }
+            });
+        });
+
+        observer.observe(document.body, {
+            childList: true, // Monitor additions/removals of child elements
+            subtree: true,   // Include all descendants of the body
+        });
+	});
+
+	function getTimeRemaining(endtime) {
+        endtime = endtime.replace(' ', 'T') + 'Z';
+        var currentTime = new Date();
+        var currentUTC = Date.parse(currentTime.toUTCString());
+        if (!endtime || Number.isNaN(Date.parse(endtime))) {
+            endtime = currentUTC;
+        }
+        var t = Date.parse(endtime) - currentUTC;
+		var seconds = Math.floor((t / 1000) % 60);
+		var minutes = Math.floor((t / 1000 / 60) % 60);
+		var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+		var days = Math.floor(t / (1000 * 60 * 60 * 24));
+		return {
+			'total': t,
+			'days': days,
+			'hours': hours,
+			'minutes': minutes,
+			'seconds': seconds
+		};
+	}
+
+	function initializeClock (id, endtime) {
+		var clock = document.getElementById(id);
+		var daysSpan = clock.querySelector('.days');
+		var hoursSpan = clock.querySelector('.hours');
+		var minutesSpan = clock.querySelector('.minutes');
+		var secondsSpan = clock.querySelector('.seconds');
+
+		function updateClock() {
+			var t = getTimeRemaining(endtime);
+
+			daysSpan.innerHTML = t.days;
+			hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+			minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+			secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+			if (t.total <= 0) {
+				daysSpan.innerHTML = '00';
+				hoursSpan.innerHTML = '00';
+				minutesSpan.innerHTML = '00';
+				secondsSpan.innerHTML = '00';
+			}
+		}
+
+		updateClock();
+
+		if (window['timerinterval' + id]) {
+			clearInterval(window['timerinterval' + id]);
+		}
+
+		window['timerinterval' + id] = setInterval(updateClock, 1000);
+	}
+</script>
+
+
+
+  <style type="text/css">
+      .ml-notification {
+        text-align: center;
+        margin-bottom: 0;
+        border-radius: 0;
+      background-color: #eeeeee;
+      border-top: 1px solid #cccccc;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      z-index: 1000;
+      }
+      .ml-notification.box {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        right: auto;
+        flex-direction: column;
+        display: flex;
+        max-width: 340px;
+        border-radius: 4px;
+      border: 1px solid #cccccc;
+      }
+      .ml-notification.box.right {
+        right: 20px;
+        left: auto;
+      }
+            @media only screen and (max-width: 480px) {
+        .ml-notification.box {
+          bottom: 0;
+          left: 0;
+          right: 0;
+          max-width: 100%;
+          border-radius: 0!important;
+        }
+      }
+      .ml-notification.bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top:auto;
+        z-index: 1;
+      }
+      
+      /* Text and link */
+      .ml-notification .text-block {
+        padding: 6px 0;
+      }
+      .ml-notification .text-block p {
+      font-family: 'Raleway', sans-serif;
+      color: #000000;
+      font-size: 14px;
+      line-height: 21px;
+      margin-bottom: 10px;
+      }
+      .ml-notification .text-block p:last-child {
+        margin-bottom: 0;
+      }
+      .ml-notification .text-block p a {
+      color: #000000;
+      text-decoration: underline;
+      }
+
+      /* Button */
+      .ml-notification .button-block {
+        padding: 2px 0;
+      }
+      .ml-notification .button-block .btn-one {
+        width: auto;
+        display: inline-block;
+      font-family:'Raleway', sans-serif;
+      background-color:#000000;
+      font-size:16px;
+      border-top:1px solid #000000;
+      border-bottom:1px solid #000000;
+      border-left:1px solid #000000;
+      border-right:1px solid #000000;
+      color:#ffffff;
+      border-radius:3px;
+      padding:5px 15px!important;
+      font-weight: normal; font-style: normal; text-decoration: none;
+      }
+      .ml-notification .button-block .btn-one:hover, .ml-notification .button-block .btn-one:focus, .ml-notification .button-block .btn-one:active, .ml-notification .button-block .btn-one:active:hover {
+      background-color:#171616;
+      border-top:1px solid #171616;
+      border-bottom:1px solid #171616;
+      border-left:1px solid #171616;
+      border-right:1px solid #171616;
+      color:#ffffff;
+      font-weight: normal; font-style: normal; text-decoration: none;
+      }
+
+      /* Button 2 */
+
+      .ml-notification .button-block .btn-two {
+        width: auto;
+        display: inline-block;
+      font-family:'Raleway', sans-serif;
+      background-color:transparent;
+      font-size:16px;
+      border-top:1px solid #ffffff;
+      border-bottom:1px solid #ffffff;
+      border-left:1px solid #ffffff;
+      border-right:1px solid #ffffff;
+      color:#ffffff;
+      border-radius:3px;
+      padding:5px 15px!important;
+      font-weight: normal; font-style: normal; text-decoration: none;
+      }
+      .ml-notification .button-block .btn-two:hover, .ml-notification .button-block .btn-two:focus, .ml-notification .button-block .btn-two:active, .ml-notification .button-block .btn-two:active:hover {
+      background-color:#eaeced;
+      border-top:1px solid #ffffff;
+      border-bottom:1px solid #ffffff;
+      border-left:1px solid #ffffff;
+      border-right:1px solid #ffffff;
+      color:#000000;
+      font-weight: normal; font-style: normal; text-decoration: none;
+      }
+    </style><style>
+      /* BS fix for too big height */
+      .flex-column .col-1, .flex-column .col-2, .flex-column .col-3, .flex-column .col-4, .flex-column .col-5, .flex-column .col-6, .flex-column .col-7, .flex-column .col-8, .flex-column .col-9, .flex-column .col-10, .flex-column .col-11, .flex-column .col-12  {
+        flex-basis: auto;
+      }
+    </style><style>
+
+      .skip-link {
+        background: #007bff;
+        height: 30px;
+        left: 50%;
+        padding: 8px;
+        position: absolute;
+        transform: translateY(-1000%);
+        transition: transform 0.3s;
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .skip-link:focus {
+        transform: translateY(-50%);
+      }
+
+      .navbar-toggler {
+        color: rgba(0, 0, 0, 0) !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+      }
+
+      .navbar-toggler-icon {
+        background-image: none !important;
+      }
+
+      .navbar-toggler-icon {
+        background-image: none;
+      border-bottom: 1px solid #000000;
+      height: 17px;
+      position: relative;
+      transition: all 300ms linear;
+      width: 24px;
+      }
+
+      .navbar-toggler-icon:after,
+      .navbar-toggler-icon:before {
+      background-color: #000000;
+      content: '';
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: all 300ms linear;
+      width: 24px;
+      z-index: 2;
+      }
+
+      .navbar-toggler-icon:after {
+        top: 8px;
+      }
+
+      .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+        transform: rotate(45deg);
+      }
+
+      .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+        transform: translateY(8px) rotate(-45deg);
+      }
+
+      .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+        border-color: transparent;
+      }
+
+      a.mobile-search {
+        font-size: 18px;
+        color: #000000;
+        margin-top: 4px;
+      }
+
+    </style><style type="text/css">
+
+      header .navbar-brand,
+      header .navbar-light .navbar-brand {
+      font-family: 'Inter', sans-serif;
+      color:#000000;
+      font-size:18px;
+      font-weight: bold; font-style: normal; text-decoration: none;
+      letter-spacing: 0px;
+      margin-bottom: 0;
+      }
+
+      header .navbar-brand:hover,
+      header .navbar-light .navbar-brand:hover {
+      color:#000000;
+      }
+
+    </style><style>
+
+      button:focus {
+        outline: none;
+      }
+
+      /*header.active {*/
+      /*  background: transparent;*/
+      /*}*/
+      header {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #ffffff;
+      border-bottom: 1px solid  #E5E7EB;
+      -webkit-transition : all 0.3s ease-out;
+      transition : all 0.3s ease-out;
+      box-shadow: none;
+      position: relative;
+      z-index: 1;
+      }
+
+      header .navbar {
+        padding: 0;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      header .navbar .navbar-brand img {
+      height: 70px;
+      }
+
+      @media (min-width: 768px) {
+
+        header .navbar-nav .nav-item {
+          padding-left: 20px;
+          padding-right:  20px;
+        }
+
+        header .navbar-nav .nav-item:first-child {
+          padding-left: 0;
+        }
+
+        header .navbar-nav .nav-item:last-child {
+          padding-right: 0;
+        }
+
+      }
+
+      header .navbar .nav-item a.dropdown-toggle {
+          white-space: normal;
+      }
+
+      header .navbar .nav-item a.dropdown-toggle:after {
+        border: solid #000000!important;
+        border-width: 0 2px 2px 0!important;
+        vertical-align: 0.2em;
+        padding: 2px!important;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-left: 10px;
+        transition: transform 0.3s;
+        color: #000000!important;
+      }
+
+      header .navbar .nav-item a.dropdown-toggle:hover:after {
+        vertical-align: 0.15em;
+        transform: rotate(-135deg)!important;
+        -webkit-transform: rotate(-135deg)!important;
+        border-color: #09c269!important;
+      }
+
+      header .navbar .nav-item .dropdown-menu {
+        border: 1px solid rgba(241, 241, 241, 0.5);
+        border: 1px solid #00000030!important;
+        margin-top: 0px;
+        margin-right: -3px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        min-width: 200px;
+        background: #ffffff;
+        right: 20px; left: inherit;
+      }
+
+      header .navbar .nav-item:last-child .dropdown-menu {
+        right: 0px!important;
+      }
+
+      header .navbar .nav-item .dropdown-menu a {
+        border-bottom: none!important;
+        padding: .5rem 1.5rem;
+        font-size: 13px!important;
+      }
+
+      header .navbar .nav-item .dropdown-menu a:hover {
+        border-bottom: none;
+        color: #09c269!important;
+        background: #09c26930!important;
+      }
+
+      header .navbar .nav-item a {
+
+      font-family: 'Inter', sans-serif;
+      color: #000000!important;
+      font-size: 14px!important;
+      -webkit-transition : all 0.3s ease-out;
+      transition : all 0.3s ease-out;
+      border-bottom: 2px solid rgba(225,225,225,0);
+      font-weight: normal; font-style: normal; text-decoration: none;
+
+      }
+
+      header .navbar .nav-item a:hover {
+
+      color: #09c269!important;
+      -webkit-transition : all 0.3s ease-out;
+      transition : all 0.3s ease-out;
+      border-bottom: 2px solid #09c269;
+
+      }
+
+      header .navbar .nav-item a.active-page{
+        font-weight: bold !important;
+      }
+
+      header .navbar .btn-block {
+        width: auto;
+        display: inline-block;
+      font-family:'Inter', sans-serif;
+      background-color:#ffffff;
+      font-size:14px;
+      
+      
+      
+      
+      color:#000000;
+      border-radius:6px;
+      padding:12px 40px!important;
+      font-weight: normal; font-style: normal; text-decoration: none;
+      }
+
+      header .navbar .btn-block:hover,
+      header .navbar .btn-block:focus,
+      header .navbar .btn-block:active,
+      header .navbar .btn-block:active:hover {
+      background-color:#B079A2;
+      
+      
+      
+      
+      color:#ffffff;
+      font-weight: normal; font-style: normal; text-decoration: none;
+      }
+
+      @media (max-width: 767px) {
+
+
+        body header {
+          width: 100%;
+          min-height: 1%;
+          z-index: 20;
+        }
+
+        body header {
+          width: 100%;
+          min-height: 100%!important;
+          height: 100%;
+          max-height: 100vh;
+          overflow-y: scroll;
+          background: #ffffff;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+          text-align: left;
+          border-bottom: none!important;
+          width:100%;
+        }
+
+        header .navbar .nav-item .dropdown-menu {
+          border: none!important;
+          margin-left: 0px!important;
+          box-shadow: none!important;
+          min-width: 100%!important;
+          background: none!important;
+          display: block!important;
+          padding: 0;
+        }
+
+        header .navbar .nav-item a.dropdown-toggle:hover:after {
+          transform: rotate(45deg)!important;
+          vertical-align: 0.2em!important;
+        }
+
+        header .navbar .nav-item .dropdown-menu a {
+          color: #000000!important;
+        }
+
+        header .navbar .nav-item .dropdown-menu a:hover {
+          background: none!important;
+        }
+
+      }
+
+      @media (max-width: 768px) {
+        body header {
+          max-height: 100vh;
+          overflow-y: scroll;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        body header::-webkit-scrollbar {
+          width: 0;
+          background: transparent;
+
+        }
+      }
+    </style><style type="text/css">
+
+  .container-fluid.ml-lp-18 {
+
+    padding-bottom: 10px;
+    padding-top: 30px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-20 {
+
+    padding-bottom: 40px;
+    padding-top: 10px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+
+  .ml-lp-20 .button-block {
+    text-align: center;
+  }
+  .ml-lp-20 .button-block .btn-block {
+    width: auto;
+    display: inline-block;
+    font-family:'Inter', sans-serif;
+    background-color:#770c59;
+    font-size:20px;
+    
+    
+    
+    
+    color:#ffffff;
+    border-radius:6px;
+    padding:12px 40px!important;
+    font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  .ml-lp-20 .button-block .btn-block:hover, .ml-lp-20 .button-block .btn-block:focus, .ml-lp-20 .button-block .btn-block:active, .ml-lp-20 .button-block .btn-block:active:hover {
+    background-color:#B079A2;
+    
+    
+    
+    
+    color:#ffffff;
+    font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .ml-lp-20 .button-block .btn-block {
+    }
+  }
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-22 {
+
+    padding-bottom: 0px;
+    padding-top: 20px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+
+  .ml-lp-24 {
+
+    background-color: #E0D8D2;
+
+  }
+
+  .ml-lp-24 hr {
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-top: 5px dotted #770c59;
+    width: 50%;
+
+  }
+
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-26 {
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-28 {
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+
+  .ml-lp-30 {
+
+    background-color: #E0D8D2;
+
+  }
+
+  .ml-lp-30 hr {
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-top: 5px dotted #770c59;
+    width: 50%;
+
+  }
+
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-32 {
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+  .ml-lp-32 h1 {
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size:52px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+    font-weight: bold; font-style: normal; text-decoration: none;;
+  }
+  .ml-lp-32 h2 {
+    font-family: 'Inter', sans-serif;
+    color:#00000;
+    font-size:38px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+    font-weight: bold; font-style: normal; text-decoration: none;;
+  }
+  .ml-lp-32 h3 {
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size:20px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+  }
+  .ml-lp-32 blockquote {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding-left: 1em;
+    border-left: 0.2em solid #333333;
+  }
+  .ml-lp-32 blockquote:before,
+  .ml-lp-32 blockquote:after {
+    content: '\201C';
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+  }
+  .ml-lp-32 blockquote:after {
+    content: '\201D';
+  }
+  .ml-lp-32 p,
+  .ml-lp-32 ul,
+  .ml-lp-32 ol {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    line-height: 150%!important;
+  }
+  .ml-lp-32 p:last-child,
+  .ml-lp-32 ul:last-child,
+  .ml-lp-32 ol:last-child {
+    margin-bottom: 0;
+  }
+  .ml-lp-32 p a,
+  .ml-lp-32 ul a,
+  .ml-lp-32 ol a {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .ml-lp-32 p,
+    .ml-lp-32 ul,
+    .ml-lp-32 ol {
+      font-size: 16px!important;
+    }
+    .ml-lp-32 h1 {
+      font-size: 28px!important;
+    }
+    .ml-lp-32 h2 {
+      font-size: 24px!important;
+    }
+    .ml-lp-32 h3 {
+      font-size: 20px!important;
+    }
+  }
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-35 {
+
+    padding-bottom: 0px;
+    padding-top: 30px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+        #ml-no-blog-posts-35 h1 {
+          text-align: center;
+          font-size: 18px;
+          font-style: italic;
+          padding: 20px;
+          border: 1px dashed #999999;
+          color: #666666;
+          text-transform: capitalize;
+          border-radius: 4px;
+          font-weight: normal;
+        }
+        .ml-lp-35 {
+        padding-bottom: 0px;
+        padding-top: 30px;
+        background-image: url('');
+        background-color: #E0D8D2;
+        background-size: cover;
+        }
+      </style><style type="text/css">
+        .ml-lp-35 h3 {
+          font-family: 'Inter', sans-serif;
+          color:#526161;
+          font-size:20px;
+          font-weight: bold; font-style: normal; text-decoration: none;
+          letter-spacing: 0px;
+          margin-bottom: 10px;
+        }
+
+        .ml-lp-35 h3 a {
+          color:#526161;
+        }
+
+        .ml-lp-35 .post-excerpt,
+        .ml-lp-35 p,
+        .ml-lp-35 ul,
+        .ml-lp-35 ol {
+          font-family: 'Inter', sans-serif;
+          color: #526161;
+          font-size: 16px;
+          line-height: 26px;
+          margin: 0 0 15px 0;
+        }
+          .ml-lp-35 p:last-child,
+          .ml-lp-35 ul:last-child,
+          .ml-lp-35 ol:last-child {
+          margin-bottom: 0;
+        }
+
+        .ml-lp-35 .btn-link,
+        .ml-lp-35 p a,
+        .ml-lp-35 ul a,
+        .ml-lp-35 ol a {
+          font-family: 'Inter', sans-serif;
+          font-size: 16px;
+          color: #770C59;
+          text-decoration: none;
+        }
+
+        .ml-lp-35 .post-created-date {
+          font-family: 'Inter', sans-serif;
+          font-size: 14px;
+          color: #526161;
+        }
+
+        @media (max-width: 768px) {
+          .ml-lp-35 h1 {
+            font-size: 20px!important;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .ml-lp-35 p,
+          .ml-lp-35 ul,
+          .ml-lp-35 ol {
+            font-size: 16px!important;
+          }
+        }
+      </style><style type="text/css">
+
+  .ml-lp-40 {
+
+    background-color: #E0D8D2;
+
+  }
+
+  .ml-lp-40 hr {
+
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-top: 5px dotted #770c59;
+    width: 50%;
+
+  }
+
+</style><style type="text/css">
+
+  .container-fluid.ml-lp-42 {
+
+    padding-bottom: 0px;
+    padding-top: 10px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+                        .image-block-45 img {
+                          max-width: 100%;
+                        }
+                      </style><style type="text/css">
+
+  .container-fluid.ml-lp-44 {
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+  /* Button */
+  .ml-lp-44 .button-block {
+  text-align: center;
+  }
+  .ml-lp-44 .btn-block+.btn-block {
+                        margin-top: 0;
+                      }
+  .ml-lp-44 .button-block .btn-block {
+  width: auto;
+  display: inline-block;
+  font-family:'Inter', sans-serif;
+  background-color:#770c59;
+  font-size:20px;
+  line-height:30px;
+  
+  
+  
+  
+  color:#ffffff;
+  border-radius:6px!important;
+  padding:12px 40px!important;
+  font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  .ml-lp-44 .button-block .btn-block:hover, .ml-lp-44 .button-block .btn-block:focus, .ml-lp-44 .button-block .btn-block:active, .ml-lp-44 .button-block .btn-block:active:hover {
+  background-color:#B079A2;
+  
+  
+  
+  
+  color:#ffffff;
+  font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .ml-lp-44 .button-block .btn-block {
+                          width: 100%!important;
+                        }
+  }
+
+  /* Input */
+  .ml-lp-44 .form-group .form-control,
+                      .ml-lp-44 .form-group .custom-select {
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  border-radius: 6px!important;
+  font-size: 14px;
+  line-height:30px;
+  color: #333333;
+  border: 1px solid #e5e7eb;
+  padding-top:12px!important;
+  padding-bottom:12px!important;
+  height: auto;
+  }
+
+  .ml-lp-44 .form-group.ml-error .form-control,
+  .ml-lp-44 .input-group.ml-error .form-control,
+  .ml-lp-44 .form-group.ml-error .custom-select {
+    border-color: red!important;
+  }
+
+  .ml-lp-44 .form-group.ml-error .custom-checkbox-radio-list {
+    border-radius: 6px!important;
+    border: 1px solid #e5e7eb;
+    padding: 10px;
+    border-color: red!important;
+  }
+
+  .ml-lp-44 .form-group .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #666666;
+  opacity: 1; /* Firefox */
+  }
+  .ml-lp-44 .form-group .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #666666;
+  }
+  .ml-lp-44 .form-group .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #666666;
+  }
+
+  @media (max-width: 768px) {
+    .ml-lp-44 .input-group .input-group-append {
+                          float: left !important;
+                          margin-top: 15px !important;
+                          width: 100%!important;
+                          margin-left: 0 !important;
+                        }
+  }
+
+
+  /* Checkbox */
+  .ml-lp-44 .form-group .custom-control-label,
+                      .ml-lp-44 .form-group .custom-control-label p,
+                                          .ml-lp-44 .form-group .custom-control-privacy-policy p {
+  color: #000000;
+  font-size: 12px!important;
+  font-family: 'Inter', sans-serif;
+  line-height: 22px;
+  font-weight: normal; font-style: normal; text-decoration: none;
+  margin-bottom: 0
+  }
+  .ml-lp-44 .form-group.ml-error .custom-control-label p {
+                        color: red;
+                      }
+
+  .ml-lp-44 .form-group.ml-error .field-title {
+                        color: red;
+                      }
+
+  .ml-error .label-description,
+  .ml-error .label-description p,
+  .ml-error .label-description p a,
+  .ml-error label:first-child {
+    color: #ff0000 !important;
+  }
+
+  .ml-lp-44 .form-group .custom-control-label a,
+                      .ml-lp-44 .form-group .custom-control-privacy-policy a {
+  color:#000000;
+  text-decoration: underline;
+  }
+
+  .ml-lp-44 .custom-checkbox .custom-control-label::before,
+                      .ml-lp-44 .custom-radio .custom-control-label::before {
+  border-color: #e5e7eb;
+  background-color: #ffffff;
+  }
+  .ml-lp-44 .custom-checkbox .custom-control-input:checked~.custom-control-label::before,
+                      .ml-lp-44 .custom-radio .custom-control-input:checked~.custom-control-label::before {
+  border-color: #770c59;
+  background-color: #770c59;
+  color: #ffffff;
+  }
+  /* Checkbox position fix */
+  .ml-lp-44 .custom-checkbox .custom-control-label::before, .ml-lp-44 .custom-checkbox .custom-control-label::after,
+                                                                                          .ml-lp-44 .custom-radio .custom-control-label::before, .ml-lp-44 .custom-radio .custom-control-label::after {
+  top: 4px;
+  }
+
+  /* Label */
+  .ml-lp-44 .form-group label {
+                        margin-bottom: 3px;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold; font-style: normal; text-decoration: none;
+  }
+
+  /* Label Desciption */
+  .ml-lp-44 .form-group .custom-control-label .description {
+                        margin-top: 5px;
+  color: #111111;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal; font-style: normal; text-decoration: none;
+  }
+
+  /* GDPR Title */
+  .ml-lp-44 .form-group-gdpr h4 {
+  color: #111111;
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold; font-style: normal; text-decoration: none;
+  }
+
+  /* GDPR Text */
+  .ml-lp-44 .form-group-gdpr p {
+  color: #111111;
+  font-size: 12px!important;
+  font-family: 'Inter', sans-serif;
+  line-height:  22px;
+  font-weight: normal; font-style: normal; text-decoration: none;
+  }
+
+  /* GDPR Text Link */
+  .ml-lp-44 .form-group-gdpr p a {
+  color: #111111;
+  }
+
+  .ml-form-recaptcha {
+    float: left;
+  }
+  .ml-form-recaptcha.ml-error iframe {
+    border: solid 1px #ff0000;
+  }
+  @media screen and (max-width: 768px) {
+    .ml-form-recaptcha {
+      transform: scale(0.77);
+      -webkit-transform: scale(0.77);
+      transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+    }
+  }
+</style><style type="text/css">
+        .form-hidden {
+          display: none;
+        }
+
+        .image-block-44 img {
+          max-width: 100%;
+        }
+      </style><style type="text/css">
+  .ml-lp-44 h1 {
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size:52px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+    font-weight: bold; font-style: normal; text-decoration: none;;
+  }
+  .ml-lp-44 h2 {
+    font-family: 'Inter', sans-serif;
+    color:#00000;
+    font-size:38px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+    font-weight: bold; font-style: normal; text-decoration: none;;
+  }
+  .ml-lp-44 h3 {
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size:20px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+  }
+  .ml-lp-44 blockquote {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding-left: 1em;
+    border-left: 0.2em solid #333333;
+  }
+  .ml-lp-44 blockquote:before,
+  .ml-lp-44 blockquote:after {
+    content: '\201C';
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+  }
+  .ml-lp-44 blockquote:after {
+    content: '\201D';
+  }
+  .ml-lp-44 p,
+  .ml-lp-44 ul,
+  .ml-lp-44 ol {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    line-height: 150%!important;
+  }
+  .ml-lp-44 p:last-child,
+  .ml-lp-44 ul:last-child,
+  .ml-lp-44 ol:last-child {
+    margin-bottom: 0;
+  }
+  .ml-lp-44 p a,
+  .ml-lp-44 ul a,
+  .ml-lp-44 ol a {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .ml-lp-44 p,
+    .ml-lp-44 ul,
+    .ml-lp-44 ol {
+      font-size: 16px!important;
+    }
+    .ml-lp-44 h1 {
+      font-size: 28px!important;
+    }
+    .ml-lp-44 h2 {
+      font-size: 24px!important;
+    }
+    .ml-lp-44 h3 {
+      font-size: 20px!important;
+    }
+  }
+</style><style type="text/css">
+
+  .ml-lp-56 {
+
+    background-color: #E0D8D2;
+
+  }
+
+  .ml-lp-56 hr {
+
+    margin-bottom: 0px;
+    margin-top: 30px;
+    border-top: 5px dotted #770c59;
+    width: 50%;
+
+  }
+
+</style><style type="text/css">
+                        .image-block-59 img {
+                          max-width: 100%;
+                        }
+                      </style><style type="text/css">
+
+  .container-fluid.ml-lp-58 {
+
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: #E0D8D2;
+
+  }
+
+</style><style type="text/css">
+
+        .image-block-58 img {
+
+        max-width: 100%;
+
+        }
+
+      </style><style type="text/css">
+  .ml-lp-58 h1 {
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size:52px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+    font-weight: bold; font-style: normal; text-decoration: none;;
+  }
+  .ml-lp-58 h2 {
+    font-family: 'Inter', sans-serif;
+    color:#00000;
+    font-size:38px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+    font-weight: bold; font-style: normal; text-decoration: none;;
+  }
+  .ml-lp-58 h3 {
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    font-size:20px;
+    letter-spacing: 0px;
+    line-height: 125%!important;
+  }
+  .ml-lp-58 blockquote {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding-left: 1em;
+    border-left: 0.2em solid #333333;
+  }
+  .ml-lp-58 blockquote:before,
+  .ml-lp-58 blockquote:after {
+    content: '\201C';
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+  }
+  .ml-lp-58 blockquote:after {
+    content: '\201D';
+  }
+  .ml-lp-58 p,
+  .ml-lp-58 ul,
+  .ml-lp-58 ol {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    line-height: 150%!important;
+  }
+  .ml-lp-58 p:last-child,
+  .ml-lp-58 ul:last-child,
+  .ml-lp-58 ol:last-child {
+    margin-bottom: 0;
+  }
+  .ml-lp-58 p a,
+  .ml-lp-58 ul a,
+  .ml-lp-58 ol a {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .ml-lp-58 p,
+    .ml-lp-58 ul,
+    .ml-lp-58 ol {
+      font-size: 16px!important;
+    }
+    .ml-lp-58 h1 {
+      font-size: 28px!important;
+    }
+    .ml-lp-58 h2 {
+      font-size: 24px!important;
+    }
+    .ml-lp-58 h3 {
+      font-size: 20px!important;
+    }
+  }
+</style><style type="text/css">
+  .ml-lp-58 .button-block .btn-block {
+    width: auto;
+    display: inline-block;
+    font-family:'Inter', sans-serif;
+    background-color:#770c59;
+    font-size:20px;
+    
+    
+    
+    
+    color:#ffffff;
+    border-radius:6px;
+    padding:12px 40px!important;
+  font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  .ml-lp-58 .button-block .btn-block:hover,
+  .ml-lp-58 .button-block .btn-block:focus,
+  .ml-lp-58 .button-block .btn-block:active,
+  .ml-lp-58 .button-block .btn-block:active:hover {
+    background-color:#B079A2;
+    
+    
+    
+    
+    color:#ffffff;
+    font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  .ml-lp-58 .button2-block .btn-block {
+    width: auto;
+    display: inline-block;
+    font-family:'Inter', sans-serif;
+    background-color:transparent;
+    font-size:16px;
+    border-top:1px solid #333333;
+    border-bottom:1px solid #333333;
+    border-left:1px solid #333333;
+    border-right:1px solid #333333;
+    color:#333333;
+    border-radius:6px;
+    padding:12px 40px!important;
+    font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  .ml-lp-58 .button2-block .btn-block:hover,
+  .ml-lp-58 .button2-block .btn-block:focus,
+  .ml-lp-58 .button2-block .btn-block:active,
+  .ml-lp-58 .button2-block .btn-block:active:hover {
+    background-color:#eaeced;
+    border-top:1px solid #000000;
+    border-bottom:1px solid #000000;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+    color:#000000;
+    font-weight: normal; font-style: normal; text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .ml-lp-58 .button-block .btn-block {
+      width: 100%!important;
+    }
+  .ml-lp-58 .button2-block .btn-block {
+      width: 100%!important;
+    }
+  }
+</style><style type="text/css">
+    footer {
+      background-color: #F7F8F9;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    /* Footer logo */
+
+    .ml-lp-63 .logo-footer img {
+      height: 30px;
+    }
+
+    /* Footer disclaimer */
+
+    .ml-lp-63 .footer-description p,
+    .ml-lp-63 .footer-description ul,
+    .ml-lp-63 .footer-description ol {
+      font-family: 'Inter', sans-serif;
+      color: #333333;
+      font-size: 14px;
+      margin: 0 0 15px 0;
+    }
+    .ml-lp-63 .footer-description p:last-child,
+    .ml-lp-63 .footer-description ul:last-child,
+    .ml-lp-63 .footer-description ol:last-child {
+      margin-bottom: 0;
+    }
+    .ml-lp-63 .footer-description p a,
+    .ml-lp-63 .footer-description ul a,
+    .ml-lp-63 .footer-description ol a {
+      font-family: 'Inter', sans-serif;
+      color: #770C59;
+      text-decoration: underline;
+    }
+
+    /* Footer navigation */
+
+    .footer-navigation h4 {
+      color: #000000;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      font-weight: bold; font-style: normal; text-decoration: none;
+    }
+    .footer-navigation .nav-footer-item {
+      padding-bottom: .75rem;
+    }
+    .footer-navigation .nav-footer-item:last-child {
+      padding-bottom: 0;
+    }
+    .footer-navigation .nav-footer-link {
+      color: #000000;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      padding-bottom: .25rem;
+      -webkit-transition : all 0.3s ease-out;
+      transition : all 0.3s ease-out;
+      border-bottom: 5px solid rgba(225,225,225,0);
+      font-weight: bold; font-style: normal; text-decoration: none;
+    }
+    .footer-navigation .nav-footer-link:hover {
+      color: #000000;
+      -webkit-transition : all 0.3s ease-out;
+      transition : all 0.3s ease-out;
+      border-bottom: 5px solid #000000;
+    }
+  </style><style>
+
+  body {
+
+  background-color: transparent;
+  background-image: none;
+  background-size:  none;
+  background-position: center none;
+  background-repeat: none;
+
+  }
+
+  body ol ol {
+    list-style-type: lower-alpha;
+  }
+
+  body ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  .container.with-border {
+
+  border-left: 0px solid #cccccc;
+  border-right: 0px solid #cccccc;
+
+  }
+
+  /* Default */
+
+  .default-heading-1 {
+  font-family: 'Inter', sans-serif;
+  color:#000000;
+  font-size:52px;
+  font-weight: bold; font-style: normal; text-decoration: none;
+  letter-spacing: 0px;
+  }
+
+  /* Input */
+
+  .form-group .form-control {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333333;
+  border: px solid #e5e7eb;
+  padding-top:px!important;
+  padding-bottom:px!important;
+  height: auto;
+  }
+
+  .form-group .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #666666;
+  opacity: 1; /* Firefox */
+  }
+  .form-group .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #666666;
+  }
+  .form-group .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #666666;
+  }
+
+  /* Large gutters */
+
+  .container.with-large-gutters,
+  .container-fluid.with-large-gutters {
+
+    padding-left: 60px;
+    padding-right: 60px;
+
+  }
+
+  @media (max-width: 991.98px) {
+
+    .container.with-large-gutters,
+    .container-fluid.with-large-gutters {
+
+      padding-left: 30px;
+      padding-right: 30px;
+
+    }
+
+  }
+
+  @media (max-width: 575.98px) {
+
+    .container.with-large-gutters,
+    .container-fluid.with-large-gutters {
+
+      padding-left: 15px;
+      padding-right: 15px;
+
+    }
+
+  }
+
+  .container.container-large-gutter {
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+  }
+
+  .container.with-large-gutters .card-body {
+
+    padding: 2.25rem;
+
+  }
+
+  .container.container-large-gutter .container {
+    padding-right: 30px;
+    padding-left: 30px;
+
+  }
+
+  .container .large-gutters {
+    margin-right: -30px;
+    margin-left: -30px;
+
+  }
+  .container .large-gutters .col,
+  .container .large-gutters [class*="col-"] {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .container .large-gutters .row {
+    margin-right: -30px;
+    margin-left: -30px;
+
+  }
+
+  .sections-repeaters .container {
+      padding: 0;
+  }
+
+  .sections-repeaters .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+  /* End of Large gutters */
+
+</style><style type="text/css">
+  #landing-0 {
+  padding-left: 0px!important;
+  padding-right: 0px !important;
+  }
+</style><script src="https://assets.mailerlite.com/js/universal.js" type="text/javascript"></script>
+
+<script>
+    window.ml = function () {
+        (window.ml.q = window.ml.q || []).push(arguments)
+    }
+    ml('account', 634278);
+    ml('initializePage', '101489396700677410');
+    ml('enablePopups', '1')
+</script>
+
+
+</head>
+
+  <body>
+          
+    
+    
+
+    <div class="container-fluid" id="landing-0">
+    <!-- Pages -->
+    
+
+  
+
+
+
+
+    <!-- Deisgn -->
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+
+    
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+  
+
+    
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+    
+      
+      
+    
+
+    
+
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+
+      
+        
+        
+        
+        
+      
+    
+
+    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+      
+        
+        
+        
+        
+      
+    
+
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+  
+
+
+
+
+
+
+
+      <!-- Notification -->
+    
+
+     <script type="text/javascript" move-to-head="">
+        function hideParent(parentKey){
+            localStorage.setItem(parentKey, 'false');
+
+            checkIfSticky( function(stickyNavbar, stickyNotification) {
+              stickyNavbar.style.top = 0;
+            })
+        }
+
+        $(document).ready(function(){
+            var showNotification = localStorage.getItem('showCookieNotificationBar');
+            if (showNotification === 'false'){
+                $( ".ml-visible-only-once" ).css( "display", "none" );
+            }
+
+            checkIfSticky( function(stickyNavbar, stickyNotification) {
+              var notificationHeight = stickyNotification.offsetHeight;
+              stickyNavbar.style.top = notificationHeight + 'px';
+            })
+        })
+
+        function checkIfSticky (callback) {
+            var stickyNavbar = document.querySelector('header.sticky-top');
+            var stickyNotification = document.querySelector('#notification.sticky-top');
+            if (stickyNavbar && stickyNotification) {
+              callback(stickyNavbar, stickyNotification);
+            }
+        }
+    </script>
+
+
+    <!-- Header -->
+    
+
+  
+  <header class=" justify-content-center">
+
+    <!-- Skip to content link-->
+    <a class="skip-link" href="#main">Skip to content</a>
+    <!-- End of skip to content link-->
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        
+        
+
+        
+
+        
+        
+
+        
+        
+        
+      
+
+      
+        
+      
+
+      
+        
+        
+        
+        
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+        
+          
+          
+          
+          
+        
+      
+
+      
+        
+
+          
+          
+          
+          
+          
+          
+        
+        
+          
+          
+          
+        
+      
+
+      
+        
+        
+        
+      
+
+      
+            
+      
+
+      
+                  
+                  
+              
+
+      
+                  
+                  
+                  
+                  
+              
+
+      
+                    
+                    
+                    
+                
+
+      
+                
+                
+              
+
+    
+
+    <div class="container-fluid  ml-lp-2">
+      <div class="row justify-content-center">
+        <div class=" col-12">
+
+          <nav class="navbar navbar-light navbar-expand-md mr-auto ml-auto
+            pl-lg-3 pr-lg-3
+            
+            ">
+
+            
+
+            <a class="navbar-brand mr-5" href="/">Making My Own Lane</a>
+
+            <div class="d-flex">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageNavbar" aria-controls="pageNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="pageNavbar">
+
+            <ul class="navbar-nav mt-3 mt-md-0 text-center">
+                <li class="nav-item ">
+                  <a role="button" href="/" class="nav-link px-0 " target="_self">Home</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="https://www.youtube.com/channel/UCZkJ-pmcxI7SXAIxSB-bCfQ" class="nav-link px-0 " target="_blank">You Tube</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="/rv-budget-worksheet" class="nav-link px-0 " target="_self">RV Budget Worksheet</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="https://subscribepage.io/thousandtrails" class="nav-link px-0 " target="_blank">Thousand Trails</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="https://www.amazon.com/shop/makingmyownlane" class="nav-link px-0 " target="_blank">Gift Ideas</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="/links" class="nav-link px-0 " target="_self">RV Living Resources</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="/blogsolofemalervliving" class="nav-link px-0 " target="_self">Blog</a>
+
+                  
+                </li><li class="nav-item ">
+                  <a role="button" href="/media-kit-nancy-carter" class="nav-link px-0 " target="_self">Work With Me</a>
+
+                  
+                </li>
+                
+            </ul>
+
+             <a role="button" class="btn btn-block nav-button d-block d-md-none mt-3" href="/contact" target="_self">Contact me
+             </a>
+
+           </div>
+
+            <a role="button" class="btn btn-block d-none d-md-block ml-5" href="/contact" target="_self">Contact me</a>
+
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </header>
+
+
+
+
+<script>
+      function toggleDropdown (e) {
+      var _d = $(e.target).closest('.dropdown-auto'),
+        _m = $('.dropdown-menu', _d);
+      setTimeout(function () {
+        var shouldOpen = e.type !== 'click' && e.type === 'mouseover';
+        _m.toggleClass('show', shouldOpen);
+        _d.toggleClass('show', shouldOpen);
+        $('[data-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+      }, e.type === 'mouseleave' ? 100 : 0);
+    }
+    $('body')
+      .on('mouseenter mouseleave','.dropdown-auto',toggleDropdown)
+      .on('click', '.dropdown-auto .dropdown-menu a', toggleDropdown);
+
+    </script>
+
+
+<script>
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() > 100) {
+      $("header").addClass("active");
+    } else {
+      $("header").removeClass("active");
+    }
+  });
+
+  $('.nav-link, .nav-button').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  window.onload = function () {
+    var currentPath = window.location.pathname;
+    var navButtons = document.querySelectorAll('.nav-link,.ml-nav-link');
+
+    navButtons.forEach(function (button) {
+      var href = button.getAttribute('href');
+      if(currentPath === href){
+        button.className += ' active-page';
+        return;
+      }
+    })
+  }
+</script>
+
+
+
+
+    <!-- Items -->
+    
+<main id="main"></main>
+
+    <div class="container-fluid ml-lp-18 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div class="row large-gutters justify-content-center">
+
+        <div class="col col-sm-12 text-center">
+          <img src="https://storage.mlcdn.com/account_image/634278/kfz8kv9TFRVBaJHcPot9WtPDG75FwsuOEOdhXfwr.png" border="0" alt="Nancy Carter Making My Own Lane Home Page" class="img-fluid d-inline" width="1110" style="display: block;">
+
+        </div>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+  
+    <div class="container-fluid ml-lp-20" data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+      
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+      <div class="row large-gutters justify-content-center">
+        <div class="col col-md-9 col-lg-7">
+
+          
+
+  
+
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+  
+
+
+<div class="button-block">
+  
+  <a class="btn btn-block" href="https://makingmyownlane.com/media-kit-nancy-carter" target="_blank">work with me</a>
+</div>
+
+
+
+
+        </div>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+  
+    <div class="container-fluid ml-lp-22 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div class="row large-gutters justify-content-center">
+
+        <div class="col col-sm-12 text-center">
+          <a href="https://makingmyownlane.com/blogsolofemalervliving/starting-my-full-time-rv-adventure" target="_self">
+
+              <img src="https://storage.mlcdn.com/account_image/634278/6BgrDZLdNN1mEgraJK37GLK82aIWtLc6Yg7KO6gM.png" border="0" alt="Nancy Carter Making My Own Lane" class="img-fluid d-inline" width="1110" style="display: block;">
+            </a>
+
+        </div>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+  
+    <div class="container-fluid ml-lp-24">
+  <div class="container">
+
+    
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+          
+          
+          
+          
+          
+          
+        
+
+        
+          
+          
+        
+
+        
+        
+        
+        
+      
+
+      <div class="d-flex justify-content-center">
+        <hr>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+    <div class="container-fluid ml-lp-26 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div class="row large-gutters justify-content-center">
+
+        <div class="col col-sm-12 text-center">
+          <img src="https://storage.mlcdn.com/account_image/634278/c179uxlrRrnZKmKYVU2LIQbdsWJL5JBpSL04pDtd.png" border="0" alt="Making My Own Lane Current Stats" class="img-fluid d-inline" width="1110" style="display: block;">
+
+        </div>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+  
+    <div class="container-fluid ml-lp-28 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div class="row large-gutters justify-content-center">
+
+        <div class="col col-sm-12 text-center">
+          <img src="https://storage.mlcdn.com/account_image/634278/LLB4KN6scQtKKEpRB4zGy26eBgdiS6MRr6IqLR79.png" border="0" alt="Nancy Carter Making My Own Lane About" class="img-fluid d-inline" width="1110" style="display: block;">
+
+        </div>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+  
+    <div class="container-fluid ml-lp-30">
+  <div class="container">
+
+    
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+          
+          
+          
+          
+          
+          
+        
+
+        
+          
+          
+        
+
+        
+        
+        
+        
+      
+
+      <div class="d-flex justify-content-center">
+        <hr>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+    <div class="container-fluid ml-lp-32 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  
+    
+    
+    
+    
+  
+  
+    
+    
+  
+
+
+
+
+
+
+      <div class="row large-gutters justify-content-center">
+        <div class="col col-sm-12">
+
+          
+            
+            
+            
+
+            <p><strong><span style="font-size: 24px;">Recent  Blog Posts:</span></strong></p>
+          
+
+        </div>
+      </div>
+
+      
+
+
+    
+
+  </div>
+</div>
+
+  
+    <div class="container-fluid ml-lp-35 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+
+
+
+      
+
+        
+          
+          
+          
+          
+          
+        
+        
+          
+          
+          
+        
+        
+          
+          
+        
+        
+          
+          
+          
+        
+
+      
+
+      <div class="row justify-content-center">
+        <div class="col col-sm-12">
+
+
+              <div id="ml-recent_posts-35" class="row justify-content-center">
+
+                <div class="col-md-4 mb-5 mb-md-0">
+
+                  <div class="post-card-el   ">
+
+                    <a href="/blogsolofemalervliving/my-bourbon-trail-weekend" class="post-link" if="variable.itemBlogSettings.value.indexOf('featured_image') !== -1">
+                      <img class="card-img-top img-responsive mb-4" src="https://storage.mlcdn.com/account_image/634278/84Mazp7dOSMn3IcIrpCVPd4YNwyez0KZjfCvxGOO.png">
+                    </a>
+
+                    <div class="">
+
+                      <h3 class="post-title">My Bourbon Trail Adventure: A Long Weekend in Kentucky</h3>
+
+                      
+
+                      <div class="mb-auto post-excerpt" ng-bind-html="(post.excerpt || 'A short excerpt describing the content appears here.') | unsafe">Explore Kentucky's Bourbon Trail with detailed distillery reviews, tasting tips, RV parking advice & travel costs. – from intimate craft operations like Balance Distillery (home of Mammoth Cave Bourbon) to iconic heritage brands like Buffalo Trace and Woodford Reserve.
+
+Discover what I learned about bourbon production, food pairing secrets that transformed how I taste whiskey, and why Glenns Creek's bold flavors challenged everything I thought I knew about bourbon. I'm sharing honest reviews, RV parking tips, money-saving strategies, and practical advice for planning your own bourbon trail adventure – whether you're traveling solo or with companions.
+
+Learn about Kentucky's limestone-filtered water, the science of barrel aging, why location in the warehouse matters, and how to book those hard-to-get specialty tours. Plus, get the real costs breakdown and insider tips from distillery staff that will enhance your bourbon trail experience.</div>
+
+                      <a href="/blogsolofemalervliving/my-bourbon-trail-weekend" class="btn btn-link p-0 mt-2 post-link">Continue reading</a>
+                    </div>
+                  </div>
+
+                </div><div class="col-md-4 mb-5 mb-md-0">
+
+                  <div class="post-card-el   ">
+
+                    <a href="/blogsolofemalervliving/florida-keys" class="post-link" if="variable.itemBlogSettings.value.indexOf('featured_image') !== -1">
+                      <img class="card-img-top img-responsive mb-4" src="https://storage.mlcdn.com/account_image/634278/tTK7kcuCffZvXQEMcaTgr0ekqCtxZpWPq0mEYxtU.png">
+                    </a>
+
+                    <div class="">
+
+                      <h3 class="post-title">My 6-Week Solo RV Adventure Through the Florida Keys: What I Wish I'd Known Before Going</h3>
+
+                      
+
+                      <div class="mb-auto post-excerpt" ng-bind-html="(post.excerpt || 'A short excerpt describing the content appears here.') | unsafe">The Florida Keys are the trip of a lifetime, but nobody tells you what it's really like to RV there for an extended period of time, ... in the summer.
+
+Just seven hours south of Orlando, but it feels like you've driven to another planet. I mean, when you're cruising down the Overseas Highway with the Atlantic Ocean on your left and the Gulf of Mexico on your right, pinching yourself because you’re finally really there. And when you finally get to Key West? You're only 90 miles from Cuba. Let that sink in.
+
+There are over 60 keys stretching 160 miles, and most of them you can only reach by boat. But the ones you can drive to? Pure magic.
+
+I was lucky enough to spend six whole weeks exploring every corner I could reach in my RV. Could you do it faster? Sure, a week would hit the highlights. But trust me, you'll want more time once you get there.</div>
+
+                      <a href="/blogsolofemalervliving/florida-keys" class="btn btn-link p-0 mt-2 post-link">Continue reading</a>
+                    </div>
+                  </div>
+
+                </div><div class="col-md-4 mb-5 mb-md-0">
+
+                  <div class="post-card-el   ">
+
+                    <a href="/blogsolofemalervliving/mammoth-cave-national-park" class="post-link" if="variable.itemBlogSettings.value.indexOf('featured_image') !== -1">
+                      <img class="card-img-top img-responsive mb-4" src="https://storage.mlcdn.com/account_image/634278/J7tdRmHGa126KQJ4JTAOpMUvkE6Knv9EdqUirFlL.png">
+                    </a>
+
+                    <div class="">
+
+                      <h3 class="post-title">Mammoth Cave National Park: My Underground Adventure in Kentucky (And Why You Need to Go!)</h3>
+
+                      
+
+                      <div class="mb-auto post-excerpt" ng-bind-html="(post.excerpt || 'A short excerpt describing the content appears here.') | unsafe">Discover why Mammoth Cave National Park in Kentucky should be your next must-visit destination and what makes is so special.
+
+Mammoth Cave National Park completely blew my mind. After exploring the world's longest cave system with over 400 miles of surveyed passages, I can tell you this UNESCO World Heritage Site delivers adventures you won't find anywhere else. And I never expected to see the Northern Lights in Kentucky!
+
+I spent 8 hours underground across three different cave tours, exploring incredible formations like Frozen Niagara and Fat man's Misery without hitting the same spot twice. 
+
+From navigating cave tour bookings (they fill up fast!) to RV camping tips at the Thousand Trails campground inside the park, this complete guide covers everything you need for your Kentucky cave adventure. Whether you're seeking underground exploration, stargazing opportunities, or fascinating Cave Wars history, Mammoth Cave National Park offers experiences that will leave you speechless.</div>
+
+                      <a href="/blogsolofemalervliving/mammoth-cave-national-park" class="btn btn-link p-0 mt-2 post-link">Continue reading</a>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div style="display: none" id="ml-no-blog-posts-35">
+                <h1>There's nothing to see here yet but come back soon!</h1>
+              </div>
+
+        </div>
+      </div>
+
+      
+
+      
+
+      <div style="display: none">
+                  <script>
+            (function() {
+              // get recently published posts
+              window.recent_posts = window.recent_posts || [];
+              var postsWrapper = document.getElementById('ml-recent_posts-' + '35');
+              var noPostsBox = document.getElementById('ml-no-blog-posts-' + '35');
+              var moment = window.moment || window.top.moment;
+
+              if (postsWrapper) postsWrapper.style.display = 'none';
+              if (noPostsBox) noPostsBox.style.display = 'none';
+
+              if (window.recent_posts.length === 0) {
+                  var r = new XMLHttpRequest();
+
+                  var params = {
+                    builder_id: '8357090',
+                    limit: 3,
+                    offset: 0
+                  };
+
+                  if ('' && '') {
+                    params.acc_id = '';
+                    params.acc_sub = encodeURIComponent('');
+                  }
+                  params.token = '7650fa7581adec695e8388d11bf1500c81cda8c29b33a1c78fec95296ecd9528';
+
+                  var queryString = Object.keys(params).map(function(key) {
+                    return key + '=' + params[key];
+                  }).join('&');
+
+                  window.recent_posts_endpoint = 'https://groot.mailerlite.com'
+                    + '/webforms/rest/recent_blog_posts?' + queryString;
+
+                  r.open('GET', window.recent_posts_endpoint);
+
+                  r.onreadystatechange = function () {
+                      if (r.readyState !== 4 || r.status !== 200) {
+                          return;
+                      }
+
+                      var response = JSON.parse(r.responseText);
+                      if (response && response.blog_posts && response.blog_posts.length) {
+                        window.recent_posts = response.blog_posts;
+
+                        if(response.TIMEZONE_OFFSET){
+                          window.TIMEZONE_OFFSET = response.TIMEZONE_OFFSET;
+                        }
+                        window.blog_page_slug = response.blog_page_slug || 'blog';
+
+                        paint_recent_posts();
+                      } else {
+                        noPostsBox.style.display = 'block';
+                      }
+
+                  };
+
+                  r.send();
+              } else {
+                  paint_recent_posts();
+              }
+
+              function htmlDecode(input) {
+                var doc = new DOMParser().parseFromString(input, "text/html");
+                return doc.documentElement.textContent;
+              }
+
+              function paint_recent_posts() {
+                  if (!postsWrapper) {
+                    return;
+                  }
+
+                  var posts_cards_array = postsWrapper.querySelectorAll('.post-card-el');
+                  [].forEach.call(posts_cards_array, function (item, key) {
+                      if (!window.recent_posts[key]) {
+                          item.parentNode.removeChild(item);
+                      } else {
+                        paint_single_post(item, key)
+                      }
+                  });
+              }
+
+              function paint_single_post (postElement, postKey) {
+
+                var post_image_array = postElement.querySelectorAll('.card-img-top');
+                var post_title_array = postElement.querySelectorAll('.post-title');
+                var post_created_date_array = postElement.querySelectorAll('.post-created-date');
+                var post_excerpt_array = postElement.querySelectorAll('.post-excerpt');
+                var post_link_array = postElement.querySelectorAll('.post-link');
+
+
+                [].forEach.call(post_image_array, function (item) {
+                  if (window.recent_posts && window.recent_posts[postKey] && window.recent_posts[postKey].featured_image && window.recent_posts[postKey].featured_image.value) {
+                    item.src = window.recent_posts[postKey].featured_image.value;
+                  } else {
+                    item.style.display = 'none';
+                  }
+                });
+
+                [].forEach.call(post_title_array, function (item) {
+                  if (window.recent_posts && window.recent_posts[postKey]) {
+                    item.innerText = window.recent_posts[postKey].title || '';
+                  } else {
+                    item.style.display = 'none';
+                  }
+                });
+
+                [].forEach.call(post_created_date_array, function (item) {
+                  if (window.recent_posts && window.recent_posts[postKey]) {
+                    var date = window.recent_posts[postKey].created_at || '';
+                    if(date && moment){
+                      date = moment(window.recent_posts[postKey].created_at).add(-300, 'minutes').format('MMM DD, YYYY')
+                    }
+                    item.innerText = date;
+                  } else {
+                    item.style.display = 'none';
+                  }
+                });
+
+                [].forEach.call(post_excerpt_array, function (item) {
+                  var excerptSource = window.recent_posts && window.recent_posts[postKey] ? window.recent_posts[postKey].excerpt : '';
+                  var targetElem = item.querySelector("p") || item;
+
+                  if (excerptSource) {
+                    targetElem.innerHTML = htmlDecode(excerptSource) || '';
+                    item.style.display = '';
+                  } else {
+                    targetElem.innerHTML = '';
+                    item.style.display = 'none';
+                  }
+                });
+
+                [].forEach.call(post_link_array, function (item) {
+                  if (window.recent_posts && window.recent_posts[postKey]) {
+                    item.href = "/" + window.blog_page_slug + "/" + window.recent_posts[postKey].slug;
+                  } else {
+                    item.href = '#';
+                    item.style.display = 'none';
+                  }
+                });
+
+                postsWrapper.style.display = 'flex';
+              }
+            })();
+          </script>
+                </div>
+
+    
+  </div>
+</div>
+
+  
+    <div class="container-fluid ml-lp-40">
+  <div class="container">
+
+    
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+          
+          
+          
+          
+          
+          
+        
+
+        
+          
+          
+        
+
+        
+        
+        
+        
+      
+
+      <div class="d-flex justify-content-center">
+        <hr>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+    <div class="container-fluid ml-lp-42 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div class="row large-gutters justify-content-center">
+
+        <div class="col col-sm-12 text-center">
+          <a href="https://www.youtube.com/channel/UCZkJ-pmcxI7SXAIxSB-bCfQ?sub_confirmation=1" target="_blank">
+
+              <img src="https://storage.mlcdn.com/account_image/634278/TAN1YNnIQUvqXYSxbvGCXnxm8Onj5jRqSc0ZDr7G.png" border="0" alt="Making My Own Lane Social Media and You Tube" class="img-fluid d-inline" width="1110" style="display: block;">
+            </a>
+
+        </div>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+  
+    <div class="container-fluid ml-lp-44 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+
+      
+
+        
+          
+          
+          
+          
+        
+
+        
+          
+          
+          
+        
+
+      
+
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+
+
+
+      
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+      
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+      
+  
+    
+    
+    
+    
+  
+  
+    
+    
+  
+
+
+
+      
+
+
+      
+
+      
+      
+
+      
+        
+        
+      
+
+      <div class="row justify-content-center">
+        <div class="col col-sm-12">
+          <div class="  ">
+            <div class="">
+              <div class="ml-subscribe-form row large-gutters align-items-center" id="mlb2-8357090-44">
+
+                <!-- Media -->
+                
+                <!-- /Media -->
+
+                <!-- Content -->
+                <div class="ml-block-form col-12 col-md-12">
+
+                  <!-- Text -->
+                  <div class="row mb-4">
+
+                    <div class="col">
+
+                      
+                        
+                        
+                        
+                        <p>Subscribe to my email list and become part of the community!</p>
+                      
+
+                    </div>
+                  </div>
+                  <!-- /Text -->
+
+                  <!-- Form -->
+                  
+
+  
+    
+    
+    
+    
+
+    
+    
+    
+  
+
+  
+    
+    
+    
+    
+  
+
+  
+    
+    
+    
+    
+  
+
+  
+    
+    
+    
+    
+  
+
+  
+    
+    
+    
+    
+  
+
+  
+    
+    
+    
+    
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+      
+      
+      
+      
+    
+  
+
+
+
+
+<div xp-if="variable.formPreview.value == 'form'">
+  <form class="mb-0" action="https://assets.mailerlite.com/jsonp/634278/pages/101489396700677410/subscribe" data-webform-type="webpage" data-code="" data-redirect="" data-redirect-target="" method="POST">
+
+    <!-- Sign-up Form Inputs -->
+
+    <!-- If one input -->
+    
+
+    <!-- If more than one input -->
+    <div class="row">
+      <div class="col">
+        <div>
+          <div class="form-group ml-field-email ml-validate-email ml-validate-required mb-2">
+            
+
+            <!-- input -->
+            <input aria-required="true" aria-label="email" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+            <!-- /input -->
+
+            <!-- textarea -->
+            
+            <!-- /textarea -->
+
+            <!-- select -->
+            
+            <!-- /select -->
+
+            <!-- checkboxes -->
+            
+            <!-- /checkboxes -->
+
+            <!-- radio -->
+            
+            <!-- /radio -->
+
+            <!-- countries -->
+            
+            <!-- /countries -->
+          </div>
+        </div><div>
+          <div class="form-group ml-field-name mb-0">
+            
+
+            <!-- input -->
+            <input aria-label="name" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="First Name" autocomplete="given-name">
+            <!-- /input -->
+
+            <!-- textarea -->
+            
+            <!-- /textarea -->
+
+            <!-- select -->
+            
+            <!-- /select -->
+
+            <!-- checkboxes -->
+            
+            <!-- /checkboxes -->
+
+            <!-- radio -->
+            
+            <!-- /radio -->
+
+            <!-- countries -->
+            
+            <!-- /countries -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Sign-up Form Inputs -->
+
+    <!-- Privacy policy -->
+    
+    <!-- /Privacy policy -->
+
+    <!-- GDPR -->
+    <div class="row mt-4">
+      <div class="col">
+
+        <div class="ml-form-embedPermissions form-group mb-0">
+          <div class="ml-form-embedPermissionsContent form-group-gdpr">
+
+            
+              
+                
+              
+              
+              <p>
+                  Your privacy is important to us, and we do not share your information.  You can unsubscribe at any time.</p>
+
+              <div class="ml-form-embedPermissionsOptions mt-3">
+
+                
+
+              </div>
+            
+          </div>
+          
+            <div class="form-group mb-0 form-group-gdpr">
+              <div class="ml-form-embedMailerLite-GDPR">
+                
+                  <p>
+                    By clicking below to submit this form, you acknowledge that the information you provide will be processed in accordance with our Privacy Policy.
+                  </p>
+                
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- /GDPR -->
+
+    <!-- Interest Groups -->
+    
+    <!-- /Interest Groups -->
+
+    <!-- Confirmation -->
+    
+    <!-- /Confirmation -->
+
+    <!-- reCAPTCHA -->
+    
+    <!-- /reCAPTCHA -->
+
+    <!-- Submit button -->
+    <div class="row mt-4">
+      <div class="col">
+        <div class="form-group button-block mb-0">
+          <button class="btn btn-block primary" type="submit">
+            Subscribe
+          </button>
+          <button style="display: none; border-top-right-radius: 6px; border-bottom-right-radius: 6px;" class="btn btn-block loading" type="button" disabled>
+            <div class="spinner-border" style="width: 1.25rem; height: 1.25rem;" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- /Submit button -->
+
+    <!-- Hidden segmentation-->
+    
+    <!-- /Hidden segmentation-->
+    <input type="hidden" name="ml-submit" value="1">
+  </form>
+</div>
+
+
+
+                  <!-- /Form -->
+
+                </div>
+                <!-- /Content -->
+
+                <div class="ml-block-success col form-hidden" xp-if="variable.formPreview.value == 'success'">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p style="text-align: center;"><b>Thank you for subscribing!</b></p><p style="text-align: center;">Have a great day!</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+
+
+    
+
+  </div>
+</div>
+
+  
+    <div class="container-fluid ml-lp-56">
+  <div class="container">
+
+    
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+          
+          
+          
+          
+          
+          
+        
+
+        
+          
+          
+        
+
+        
+        
+        
+        
+      
+
+      <div class="d-flex justify-content-center">
+        <hr>
+      </div>
+
+    
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+    <div class="container-fluid ml-lp-58 " data-aos="flip-up">
+  <div class="container with-large-gutters">
+
+    
+      
+      
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+
+
+
+      
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  
+    
+    
+    
+    
+  
+  
+    
+    
+  
+
+
+
+
+
+      
+  
+
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+  
+  
+
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+
+  
+
+
+
+      
+      
+      
+
+      
+        
+        
+      
+
+      <div class="row justify-content-center">
+        <div class="col col-sm-12">
+          <div class="  ">
+            <div class="">
+              <div class="row large-gutters align-items-center">
+
+                <!-- Media -->
+                <div class="col-12 col-md-5 order-first image-block-58 mb-4 mb-md-0">
+
+                  <!-- Image -->
+                  <div>
+                    
+                      <div class="image-block-59 text-center w-100">
+                        <a href="https://www.amazon.com/shop/makingmyownlane" target="_blank">
+                            <img src="https://storage.mlcdn.com/account_image/634278/tPSpjusd3s3P8AbNJL4raLWGkTz2P8JRskEkGkpT.png" border="0" alt="Amazon shop" class="img-fluid d-inline" width="360" style="display: block;">
+                          </a>
+                        
+                      </div>
+                      
+                    
+                  </div>
+                  <!-- /Image -->
+                  <!-- Video -->
+                  
+                  
+                  <!-- Video -->
+
+                </div>
+                <!-- /Media -->
+
+                <!-- Content -->
+                <div class="col-12 col-md-7">
+
+                  <!-- Text -->
+                  <div class="row">
+                    <div class="col" aria-label="content" role="contentinfo">
+
+                      
+                        
+                        
+                        
+
+                        <p>Whether you're just getting started or a camping pro, check out some of my favorite things on Amazon that will help make your next RV Adventure or road trip even more memorable and enjoyable!</p>
+                      
+
+                    </div>
+                  </div>
+
+                  <!-- Button -->
+                  <div class="row mt-4">
+                    <div class="col">
+                      
+                                                <div class="buttons btn-group d-flex flex-row justify-content-center">
+
+                          <div class="button-block ">
+                            
+                            <a class="btn btn-block" href="https://www.amazon.com/shop/makingmyownlane" target="_self">Shop now!</a>
+                          </div>
+                          
+
+                        </div>
+                      
+                    </div>
+                  </div>
+
+                </div>
+                <!-- /Content -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+
+      
+
+
+
+    
+
+  </div>
+</div>
+
+  
+
+
+
+
+
+
+    <!-- Footer -->
+    
+
+  
+  
+
+  
+  
+  
+
+  
+
+    
+
+    
+    
+
+    
+
+    
+      
+      
+    
+
+    
+      
+      
+      
+    
+    
+      
+      
+      
+    
+
+    
+      
+    
+    
+      
+      
+      
+    
+
+    
+      
+      
+      
+      
+    
+    
+      
+
+        
+        
+        
+        
+      
+      
+        
+        
+        
+      
+    
+
+  
+
+  <footer class="ml-lp-63 pl-3 pr-3">
+
+    
+
+    <div class="container-fluid  ml-lp-63">
+
+      <div class="row justify-content-center">
+        <div class=" col-12">
+
+          <!-- Social icons -->
+          <div class="row mb-5">
+            <div class="col">
+              <ul class="list-inline mb-0 text-center">
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com/channel/UCZkJ-pmcxI7SXAIxSB-bCfQ?sub_confirmation=1" target="_blank">
+                    <img width="30" alt="youtube" src="https://assets.mlcdn.com/ml/images/icons/default/rounded_corners/color/youtube.png" style="display: block;" border="0">
+                  </a>
+                </li><li class="list-inline-item">
+                  <a href="https://www.instagram.com/makingmyownlane" target="_blank">
+                    <img width="30" alt="instagram" src="https://assets.mlcdn.com/ml/images/icons/default/rounded_corners/color/instagram.png" style="display: block;" border="0">
+                  </a>
+                </li><li class="list-inline-item">
+                  <a href="https://www.amazon.com/shop/makingmyownlane" target="_blank">
+                    <img width="30" alt="amazon" src="https://assets.mlcdn.com/ml/images/icons/default/rounded_corners/color/amazon.png" style="display: block;" border="0">
+                  </a>
+                </li><li class="list-inline-item">
+                  <a href="https://www.facebook.com/profile.php?id=61557607495808" target="_blank">
+                    <img width="30" alt="facebook" src="https://assets.mlcdn.com/ml/images/icons/default/rounded_corners/color/facebook.png" style="display: block;" border="0">
+                  </a>
+                </li><li class="list-inline-item">
+                  <a href="https://www.pinterest.com/makingmyownlane/" target="_blank">
+                    <img width="30" alt="pinterest" src="https://assets.mlcdn.com/ml/images/icons/default/rounded_corners/color/pinterest.png" style="display: block;" border="0">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /Social icons -->
+          <!-- Disclaimer -->
+        <div class="row mb-5">
+            <div class="col">
+              <div class="footer-description text-center">
+                <p><span><span><span><a href="https://makingmyownlane.com/">Making My Own Lane</a></span></span></span>  2025© All Rights Reserved</p>
+<p><em><span style="font-size: 10px;"><strong>DISCLAIMER: </strong>The content on this website contains the thoughts, opinions and ideas of Making My Own Lane and Nancy Carter and is for entertainment purposes only. It is not intended to be a substitute for professional advice<span style="font-size: 10px;"></span> or guidance. Making My Own Lane and Nancy Carter cannot be held liable in the event of any accident or injury that may occur as a result applying the ideas and information provided on this website.</span></em></p>
+<p><em><span style="font-size: 10px;"><strong>DISCLOSURE:</strong> Making My Own Lane participates in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.<br></span></em></p>
+<p><em><span><span style="font-size: 10px;"><a href="http://makingmyownlane.com/disclosure" target="_blank">Click here</a></span><span style="font-size: 10px;"> for my full disclosure policy or </span><span><a href="https://makingmyownlane.com/privacy" target="_blank" style="font-size: 10px;">click here</a><span style="font-size: 10px;"> for our privacy policy.</span></span><br></span></em></p>
+              </div>
+            </div>
+          </div>
+          <!-- /Disclaimer -->
+          <!-- Logo -->
+          <div class="row">
+            <div class="col">
+              <a class="logo-footer d-flex justify-content-center" href="/">
+                <img alt="" src="https://storage.mlcdn.com/account_image/634278/9A1MPWmm8zUI3igrUN4AUGr6VADHWTlnYOYM9Hfp.png" style="display: block;" border="0">
+              </a>
+            </div>
+          </div>
+          <!-- /Logo -->
+        </div>
+      </div>
+
+    </div>
+
+    
+
+  </footer>
+
+  
+
+      <script>
+ 
+
+  var $ = window.ml_jQuery || window.jQuery;
+
+ document.onkeydown = function(evt) {
+   evt = evt || window.event;
+   var isEscape = false;
+   if ('key' in evt) {
+     isEscape = evt.key == 'Escape';
+   } else {
+     isEscape = evt.keyCode == 27;
+   }
+
+   if (isEscape) {
+     close();
+   }
+ };
+
+ function close() {
+        window.parent.postMessage('ml-accounts---webforms-8357090--hide', '*');
+ };
+
+ (function ($, window) {
+   function sendHeightToParent(selector, sendSize) {
+     var formHeight = $(selector).outerHeight();
+
+     window.parent.postMessage('ml-accounts---webforms-8357090--setHeight-' + formHeight + 'px', '*');
+
+     if (sendSize) {
+
+       var formWidth = $(selector).outerWidth();
+       window.parent.postMessage('ml-accounts---webforms-8357090--setSize-' + formHeight + 'px' + '-' + formWidth + 'px', '*');
+     }
+   }
+
+   var resizeTimer;
+   var formTypes = [
+     '.mailerlite-trigger-sendHeightToParent',
+
+     // old classes that triggers sendHeight too
+     '.mailerlite-popup',
+     '.mailerlite-slidebox',
+     '.mailerlite-form-bar',
+     '.mailerlite-fullscreen'
+   ];
+
+   function resizeFunction(formType, sendSize) {
+     sendHeightToParent(formType, sendSize);
+   }
+
+   formTypes.forEach(function (formType) {
+     if (window.sendHeightToParentTriggered) {
+       return;
+     }
+
+     if ($(formType).length) {
+       setTimeout(resizeFunction(formType), 200);
+
+       $(window).resize(function() {
+         clearTimeout(resizeTimer);
+         resizeTimer = setTimeout(resizeFunction(formType, true), 50);
+       });
+
+       // if height is already triggered - do not trigger again
+       window.sendHeightToParentTriggered = true;
+     }
+   })
+ })($, window);
+
+ 
+    
+</script>
+
+      
+
+    
+            <script>
+      ml('webpages', '8357090', '', 'visitor', 'track');
+    </script>
+          
+      <script>
+        function debounce(func, wait, immediate) {
+          var timeout;
+          return function () {
+            var context = this, args = arguments;
+            var later = function () {
+              timeout = null;
+              if (!immediate) func.apply(context, args);
+            };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+
+            if (callNow) func.apply(context, args);
+          };
+        }
+
+        var heatmap_submit_url = 'https://connect.mailerlite.com/api/pages/101489396700677410/clicks?signature=0f165eb79828f2d84401b4ae05429df0b1940dc25920846ae3125c8de4a35e46';
+
+        // continue only if heatmap_submit_url is valid
+        if (/^https?:\/\/.*$/i.test(heatmap_submit_url)) {
+          var heatmap_clicks = [];
+
+          var addData = function (targetTagName, targetIndex, x, y) {
+            var width = $(window).width();
+
+            var clickObject = {
+              targetTagName: targetTagName,
+              targetIndex: targetIndex,
+              x: x,
+              y: y,
+              value: 1,
+              screenWidth: width,
+              webformId: '8357090',
+              webformCode: '',
+              blog_post_id: '',
+              blog_category_id: ''
+            };
+
+            heatmap_clicks.push(clickObject);
+
+            window.debounce_function = window.debounce_function || debounce(function () {
+              sendHeatmapData();
+            }, 3000);
+
+            window.debounce_function();
+          };
+
+          var sendHeatmapData = function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', heatmap_submit_url, true);
+            xhr.send(JSON.stringify(heatmap_clicks));
+
+            heatmap_clicks = [];
+          };
+
+          $(document).on("click tap", function (event) {
+            var target = event.target;
+
+            // if click is made on carousel, send only clicks from 1st slide
+            var clickedInsideCarousel = target.closest(".ml-carousel-item");
+            var firstSlide = false;
+            if (clickedInsideCarousel) {
+              var elementClasses = clickedInsideCarousel.classList;
+
+              for (var i = 0; i < elementClasses.length; i++) {
+                if ( elementClasses[i] === 'ml-carousel-item-0') {
+                  firstSlide = true;
+                  break;
+                }
+              }
+            }
+            if (clickedInsideCarousel && !firstSlide) {
+              return;
+            }
+
+            var targetTagName = target.tagName;
+            var targetIndex;
+            var elements = document.getElementsByTagName(targetTagName);
+            var x, y;
+
+            Array.prototype.forEach.call(elements, function (element, key) {
+              if (element === target) {
+                targetIndex = key;
+              }
+            });
+
+            if ((event.offsetX > target.offsetWidth || event.offsetY > target.offsetHeight) && target.offsetParent) {
+              // because some tags like <strong>, <span> are picking up offsetX from parent element
+              target = target.offsetParent;
+            }
+
+            x = event.offsetX / target.offsetWidth * 100;
+            y = event.offsetY / target.offsetHeight * 100;
+
+            addData(targetTagName, targetIndex, x, y);
+          });
+
+          function getElementDisplayType(element) {
+            if (!element) {
+              return false;
+            }
+
+            var cStyle = element.currentStyle || window.getComputedStyle(element, "");
+            return cStyle.display;
+          }
+
+          window.onbeforeunload = function () {
+            if (heatmap_clicks.length) {
+              sendHeatmapData();
+            }
+          }
+        }
+      </script>
+    
+  
+
+  
+  <script>
+      (function(window) {
+  window.addEventListener("message", receiveMessage, false);
+
+  function receiveMessage(event) {
+      if (event && event.data && typeof event.data === 'string') {
+        var message_parts = event.data.split('-');
+        if (message_parts.length > 1) {
+            if (message_parts[0] == 'mlWebformSubmitSuccess') {
+                var id = message_parts[1];
+                var cookieName = 'mailerlite:webform:submited:' + id
+                var cookieValue = (new Date()).getTime();
+                document.cookie = cookieName + "=" + cookieValue + "; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+            } else if (message_parts[0] == 'mlWebformRedirect') {
+                var target = message_parts[message_parts.length - 1];
+                var targets = ['_blank', '_self', '_parent', '_top'];
+                var redirect = message_parts.slice(1, message_parts.length - 1).join('-');
+                if (targets.indexOf(target) < 0) {
+                    redirect = message_parts.slice(1).join('-');
+                    target = '_blank';
+                }
+
+                var redirectUrl = new URL(decodeURIComponent(redirect));
+                if (redirectUrl && redirectUrl.protocol != 'javascript:') {
+
+                    window.open(decodeURIComponent(redirect), target);
+                }
+            }
+        }
+      }
+  }
+})(window);
+  </script>
+
+  
+
+
+
+</div>
+
+
+    </div>
+
+    
+
+      <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024" type="text/javascript"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  
+      <div id="ml-checkout-modal" class="modal">
+        <div class="modal-backdrop" style="opacity: 0.5"></div>
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-lg" style="z-index: 1040; width: 768px; max-width: 90vw; height: 840px; max-height: 80vh;">
+                <iframe id="ml-checkout-iframe" src="" class="w-100 h-100 border-0 rounded-lg"></iframe>
+            </div>
+        </div>
+    </div>
+  
+  <img src="https://www.facebook.com/tr?id=264145306781225&ev=PageView" height="1" width="1" style="display:none"/>
+</body>
+
+</html>
