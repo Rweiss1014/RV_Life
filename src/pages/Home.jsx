@@ -1,28 +1,22 @@
 import BlogCard from '../components/BlogCard';
 import EmailSubscribe from '../components/EmailSubscribe';
+import blogPostsData from '../data/blogPosts.json';
 import './Home.css';
 
 function Home() {
-  const featuredPosts = [
-    {
-      title: "My Bourbon Trail Adventure: A Long Weekend in Kentucky",
-      excerpt: "Explore Kentucky's Bourbon Trail with detailed distillery reviews, tasting tips, RV parking advice & travel costs. Discover what I learned about bourbon production and food pairing secrets that transformed how I taste whiskey.",
-      image: "/QAk5cI30BwXEquJhDLBl8hKMnl9nxNVAANvZ1QMt.png",
-      category: "Travel"
-    },
-    {
-      title: "My 6-Week Solo RV Adventure Through the Florida Keys",
-      excerpt: "The Florida Keys are the trip of a lifetime, but nobody tells you what it's really like to RV there for an extended period. Cruising down the Overseas Highway with the Atlantic on one side and the Gulf on the other is pure magic.",
-      image: "/SZ5L1x7qS51PM6XN1arZAilNBSF3D9ETuJF4iuqA.jpg",
-      category: "RV Life"
-    },
-    {
-      title: "Mammoth Cave National Park: My Underground Adventure",
-      excerpt: "Discover why Mammoth Cave National Park in Kentucky should be your next must-visit destination. After exploring the world's longest cave system, I can tell you this UNESCO World Heritage Site delivers adventures you won't find anywhere else.",
-      image: "/z8li36tKd2eYJWxJ4i0j07NRMjctGVu5YsK3yVae.jpg",
-      category: "Adventure"
-    }
-  ];
+  const extractFilename = (url) => {
+    if (!url) return '';
+    const parts = url.split('/');
+    return parts[parts.length - 1];
+  };
+
+  const featuredPosts = blogPostsData.posts.slice(0, 3).map(post => ({
+    title: post.title,
+    excerpt: post.excerpt,
+    image: `/${extractFilename(post.featured_image)}`,
+    category: post.category,
+    slug: post.slug
+  }));
 
   return (
     <div className="home">
