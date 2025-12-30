@@ -1,0 +1,134 @@
+.footer {
+  background: linear-gradient(to bottom, var(--cream), var(--warm-beige));
+  border-top: 2px solid var(--gold);
+  margin-top: auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 3rem;
+  padding: 4rem 0 2rem;
+}
+
+.footer-section h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--deep-brown);
+}
+
+.footer-section h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--deep-brown);
+}
+
+.footer-section p {
+  color: var(--deep-brown);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50%;
+  transition: var(--transition);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: var(--terracotta);
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-section ul li a {
+  color: var(--deep-brown);
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.footer-section ul li a:hover {
+  color: var(--terracotta);
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(74, 63, 53, 0.2);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 0.875rem;
+  color: var(--deep-brown);
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer-text {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-section:last-child {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-section:first-child {
+    grid-column: span 2;
+  }
+
+  .footer-section:last-child {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-section:first-child,
+  .footer-section:last-child {
+    grid-column: span 1;
+  }
+}

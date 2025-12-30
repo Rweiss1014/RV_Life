@@ -1,0 +1,76 @@
+.blog-page {
+  padding-top: 80px;
+}
+
+.blog-hero {
+  background: linear-gradient(135deg, var(--sage) 0%, var(--deep-brown) 100%);
+  padding: 5rem 0;
+  text-align: center;
+  color: white;
+}
+
+.blog-hero h1 {
+  color: white;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1rem;
+}
+
+.blog-hero p {
+  color: white;
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  opacity: 0.95;
+}
+
+.blog-filters {
+  background-color: var(--cream);
+  padding: 2rem 0;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: var(--deep-brown);
+  border: 2px solid var(--warm-beige);
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.filter-buttons button:hover,
+.filter-buttons button.active {
+  background-color: var(--terracotta);
+  color: white;
+  border-color: var(--terracotta);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(193, 115, 95, 0.3);
+}
+
+.blog-list {
+  background-color: var(--soft-white);
+}
+
+@media (max-width: 768px) {
+  .blog-hero {
+    padding: 3rem 0;
+  }
+
+  .filter-buttons {
+    gap: 0.75rem;
+  }
+
+  .filter-buttons button {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.875rem;
+  }
+}
